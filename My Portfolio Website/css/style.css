@@ -1,0 +1,214 @@
+/*  import google fonts */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&family=Ubuntu:wght@400;500;700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+/* all similar content styling codes */
+section{
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+.max-width{
+    max-width: 1300px;
+    padding-left: 80px;
+    padding-right: 40px;
+    margin: auto;
+}
+.about, .projects, .skills, .resume, .contact{
+    font-family: 'Poppins', sans-serif;
+}
+.about .about-content,
+.skills .skills-content,
+.contact .contact-content{
+    display: flex;
+    justify-content: space-between;
+}
+section .title{
+    text-align: center;
+    font-size: 40px;
+    font-weight: 500;
+    padding-bottom: 80px;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+/* navbar styling */
+.navbar{
+    background: linear-gradient( #222 97%, #111);
+    position: fixed;
+    width: 100%;
+    padding-top: 14px;
+    padding-bottom: 14px;
+    font-family: 'Ubuntu', sans-serif;
+}
+.navbar .max-width{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.navbar .logo a{
+    color: #fff;
+    font-size: 35px;
+    font-weight: 600;
+}
+.navbar .logo a span{
+    color: crimson;
+}
+.navbar .menu li{
+    list-style: none;
+    display: inline-block;
+}
+.navbar .menu li a{
+    display: block;
+    color: #fff;
+    font-size: 18px;
+    font-weight: 500;
+    margin-right: 25px;
+}
+.navbar .menu li a:hover{
+    color: crimson;
+}
+
+/* home section styling */
+.home{
+    display: flex;
+    background: url("https://image.freepik.com/free-vector/abstract-premium-black-gold-geometric-background_1017-24783.jpg") no-repeat center;
+    height: 100vh;
+    color: #fff;
+    min-height: 500px;
+    background-size: cover;
+    background-attachment: fixed;
+    font-family: 'Ubuntu', sans-serif;
+}
+.home .home-content .text-1{
+    font-size: 27px;
+}
+.home .home-content .text-2{
+    font-size: 75px;
+    font-weight: 600;
+}
+.home .home-content .text-3{
+    font-size: 40px;
+}
+.home .home-content .text-3 span{
+    color: crimson;
+    font-weight: 500;
+}
+
+/* about section styling */
+.about .about-content .left{
+    width: 45%;
+}
+.about .about-content .left img{
+    height: 250px;
+    width: 400px;
+}
+.about .about-content .right{
+    width: 55%;
+}
+.about .about-content .right .text{
+    font-size: 25px;
+    font-weight: 600;
+}
+.about .about-content .right .text span{
+    color: crimson;
+}
+.about .about-content .right p{
+    text-align: justify;
+}
+
+/* skills section styling */
+.skills .skills-content .column{
+    width: 500px;
+    height: 400px;
+}
+.skills .skills-content .left .text{
+    font-size: 20px;
+    font-weight: 600;
+}
+.skills .skills-content .left p{
+    text-align: justify;
+}
+.skills .skills-content .right .bars{
+    padding-bottom: 15px;
+}
+.skills .skills-content .right span{
+    font-weight: 500;
+    font-size: 18px;
+}
+
+
+/* projects section styling */
+.projects{
+    background-color: #222;
+}
+.projects .title{
+    color: white;
+}
+.projects .topics{
+    font-size: 25px;
+    font-weight: 600;
+    padding-bottom: 15px;
+    color: white;
+}
+.projects .topics-content{
+    font-size: 14px;
+    font-weight: 500;
+    padding-bottom: 60px;
+    color: white;
+}
+
+
+
+/* resume section styling */
+.resume .max-width img{
+    height: 580px;
+    padding-left: 340px;
+}
+
+/* contact section styling */
+.contact .contact-content .left{
+    width: 45%;
+}
+.contact .contact-content .right{
+    width: 51%;
+}
+.contact .contact-content .text{
+    font-size: 20px;
+    font-weight: 600;
+    padding-bottom: 10px;
+}
+.contact .contact-content .left p{
+    text-align: justify;
+}
+.contact .right form .field{
+    height: 55px;
+    width: 100%;
+    padding-bottom: 15px;
+}
+.contact .right form .name{
+    margin-right: 10px;
+}
+.contact .right form .field input{
+    height: 100%;
+    width: 100%;
+    padding-left: 10px;
+    font-size: 17px;
+    font-family: 'Poppins', sans-serif;
+}   
+.right form .button-area button{
+  color: #fff;
+  width: 140px;
+  height: 45px;
+  font-size: 18px;
+  font-weight: 500;
+  background: crimson;
+}
+.right form .button-area button:hover{
+  color: crimson;
+  background: none;
+}
